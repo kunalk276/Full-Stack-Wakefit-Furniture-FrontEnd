@@ -1,0 +1,71 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .active {
+    color: #FFD700; /* Gold color for active link */
+}
+
+/* Centered title */
+h1.text-center {
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #343a40; /* Dark grey */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container span {
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar .nav-item .nav-link {
+        font-size: 1rem;
+    }
+
+    h1.text-center {
+        font-size: 1.5rem;
+    }
+
+    .footer .container span {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,25 @@
+<div class="container">
+  <h2>Feedback List</h2>
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>Rating</th>
+        <th>Comment</th>
+        <th>Feedback Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let feedback of feedbacks">
+        <td>{{ feedback.rating }}</td>
+        <td>{{ feedback.comment }}</td>
+        <td>{{ feedback.feedbackDate }}</td>
+        <td>
+          <button class="btn btn-primary" (click)="updateFeedback(feedback.feedbackId)">UPDATE</button>
+          <button class="btn btn-danger" (click)="deleteFeedback(feedback.feedbackId)">DELETE</button>
+          <button class="btn btn-primary" (click)="feedbackDetails(feedback.feedbackId)">View</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

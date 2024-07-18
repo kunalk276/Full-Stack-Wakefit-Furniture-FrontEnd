@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center; /* Center-align text */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.custom-table {
+    border: 4px solid #000; /* Outer table border */
+    width: auto; /* Table width adjusts according to content */
+    margin: 0 auto; /* Center the table */
+    table-layout: auto; /* Auto layout for column widths */
+    max-width: 100%; /* Ensure table doesn't overflow the container */
+}
+
+.custom-table th, .custom-table td {
+    border: 2px solid #000; /* Inner cell borders */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.custom-table th {
+    background-color: #f8f9fa; /* Light grey background for headers */
+    font-weight: bold; /* Bold text for headers */
+    width: 30%; /* Set a specific width for header cells */
+}
+
+.custom-table td {
+    background-color: #fff; /* White background for data cells */
+}
+
+.container {
+    max-width: 800px; /* Maximum width of the container */
+    padding: 20px; /* Padding around the container */
+    margin: 0 auto; /* Center the container */
+}

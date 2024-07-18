@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>User Details</h2>
+    <div *ngIf="user">
+      <p><strong>User ID:</strong> {{ user.userId }}</p>
+      <p><strong>Username:</strong> {{ user.userName }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>First Name:</strong> {{ user.firstName }}</p>
+      <p><strong>Last Name:</strong> {{ user.lastName }}</p>
+      <p><strong>Mobile Number:</strong> {{ user.mobNo }}</p>
+      <p><strong>Role:</strong> {{ user.role }}</p>
+    </div>
+    <div class="mt-4">
+      <button class="btn btn-primary" routerLink="/users">Back</button>
+    </div>
+  </div>
+  
