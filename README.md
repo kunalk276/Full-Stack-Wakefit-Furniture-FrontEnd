@@ -28,7 +28,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ![Screenshot 2024-08-10 221929](https://github.com/user-attachments/assets/e7c19bd5-b15f-48ef-a955-10e7f9513677)
 ![Screenshot 2024-08-10 221907](https://github.com/user-attachments/assets/0e1d6a6a-3236-4017-b2a2-7d190217f051)
 ![Screenshot 2024-08-10 223249](https://github.com/user-attachments/assets/e7ef9fa1-c6df-4a35-94be-d1e7dafa3405)
-![Screenshot 2024-08-10 223226](https://github.com/user-attachments/assets/682c6d3e-e785-4f87-9b4f-cb16fc42f2bd)
+
 ![Screenshot 2024-08-10 223201](https://github.com/user-attachments/assets/d871d30c-7443-4340-bdb7-2e7ac5326565)
 ![Screenshot 2024-08-10 223125](https://github.com/user-attachments/assets/9c93bea7-de7b-4f48-bedf-6ac75754be33)
 ![Screenshot 2024-08-10 223058](https://github.com/user-attachments/assets/c1145a0b-8745-4630-8a2a-2b7effa48157)
